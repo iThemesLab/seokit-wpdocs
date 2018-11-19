@@ -1,0 +1,59 @@
+/* Typo */
+.orange {
+  color: #ff6b57; }
+
+.purple {
+  color: #9B59B6; }
+
+.green {
+  color: #41C3AC; }
+
+.blue {
+  color: #3498DB; }
+
+a {
+  color: #41C3AC; }
+  a:hover {
+    color: #ff6b57; }
+
+.mb40 {
+  margin-bottom: 40px; }
+
+.mb60 {
+  margin-bottom: 60px; }
+
+.mb80 {
+  margin-bottom: 80px; }
+
+.pad40 {
+  padding: 40px 0; }
+
+.pad60 {
+  padding: 60px 0; }
+
+.pad80 {
+  padding: 80px 0; }
+
+.title {
+  display: inline-block; }
+
+.title.mt0 {
+  margin-top: 0; }
+
+.step {
+  color: #ff6b57; }
+
+.to-top {
+  display: inline-block;
+  margin-left: 15px; }
+
+.icon-wrap {
+  border: 1px solid #eee;
+  padding: 20px 0;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .icon-wrap i:before {
+    font-size: 40px; }
+  .icon-wrap:hover {
+    color: #41C3AC; }

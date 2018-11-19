@@ -1,0 +1,49 @@
+@import 'variables';
+a {
+	color: $green;
+	&:hover {
+		color: $orange;
+	}
+}
+.mb40 {
+	margin-bottom: 40px;
+}
+.mb60 {
+	margin-bottom: 60px;
+}
+.mb80 {
+	margin-bottom: 80px;
+}
+.pad40{
+	padding: 40px 0;
+}
+.pad60{
+	padding: 60px 0;
+}
+.pad80{
+	padding: 80px 0;
+}
+.title { 
+	display: inline-block;
+}
+.title.mt0 {
+	margin-top: 0;
+}
+.step {
+	color: $orange;
+}
+.to-top {
+	display: inline-block;
+	margin-left: 15px;
+}
+.icon-wrap {
+	border: 1px solid #eee;
+	padding: 20px 0;
+	transition: all 0.3s;
+	i:before {
+		font-size: 40px;
+	}
+	&:hover {
+		color: $green;
+	}
+}
